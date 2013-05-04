@@ -1,0 +1,64 @@
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 70%;
+}
+
+body,
+a,
+input {
+    color: #222 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input {
+    font-family: 'Days One', sans-serif;
+    display: block;
+    border: none;
+    border-bottom: 1px dotted #666;
+    background: transparent;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 46px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    outline: 0;
+    width: 100%;
+}
+
+.container {
+    width: 350px;
+    height: 110px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin: -55px -175px;
+}
+
+footer {
+    text-align: center;
+    bottom: 1em;
+    right: 50%;
+    width: 300px;
+    position:absolute;
+    margin: 0 -150px;
+}
+
+footer p {
+    line-height: 1em;
+    margin: 0.3em;
+}
+
+.body--dark,
+.body--dark input,
+.body--dark a {
+    color: #fff !important;
+}

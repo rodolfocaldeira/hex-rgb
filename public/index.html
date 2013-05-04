@@ -1,0 +1,32 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <meta charset=utf-8>
+    <title>HexRgb</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+    <script>window.angular || document.write('<script src="js/vendor/angular.js">\x3C/script>')</script>
+    <script type="text/javascript" src="js/controllers.js"></script>
+
+</head>
+<body ng-controller="HexRgbController">
+
+<div class="container">
+    <input id="hex" type="text" data-ng-model="color.hex" ng-change="updateRgb()" placeholder="hex"/>
+    <input type="text" data-ng-model="color.rgb" ng-change="updateHex()" placeholder="rgb"/>
+</div>
+
+<footer>
+    <p>
+        Built with <a href="http://angularjs.org/">AngularJs</a>,
+        source code available on <a href="#github">GitHub</a>.
+    </p>
+
+    <p>Heavily inspired by <a href="http://hex.colorrrs.com/">hex.colorrrs.com</a>.</p>
+</footer>
+
+</body>
+</html>
